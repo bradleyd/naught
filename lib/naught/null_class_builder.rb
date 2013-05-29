@@ -4,6 +4,8 @@ module Naught
     module Commands
     end
 
+    attr_accessor :base_class
+
     def initialize
       @interface_defined = false
       @base_class        = BasicObject
